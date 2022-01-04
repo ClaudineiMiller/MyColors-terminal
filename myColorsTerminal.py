@@ -1,0 +1,42 @@
+class FONT_Colors():
+    preto = '\033[1;30m'
+    vermelho_e = '\033[1;31m'
+    verde_e = '\033[1;32m'
+    amarelo_e = '\033[1;33m'
+    azul_e = '\033[1;34m'
+    magenta_e = '\033[1;35m'
+    cyan_e = '\033[1;36m'
+    cinza_c = '\033[1;37m'
+    cinza_e = '\033[1;90m'
+    vermelho_c = '\033[1;91m'
+    verde_c = '\033[1;92m'
+    amarelo_c = '\033[1;93m'
+    azul_c = '\033[1;94m'
+    magenta_c = '\033[1;95m'
+    cyan_c = '\033[1;96m'
+    branco = '\033[1;97m'
+    negrito = '\033[;1m'
+    inverte = '\033[;7m'
+
+
+class BACKGROUND_Colors():
+    preto = '\033[1;40m'
+    vermelho_e = '\033[1;41m'
+    verde_e = '\033[1;42m'
+    amarelo_e = '\033[1;43m'
+    azul_e = '\033[1;44m'
+    magenta_e = '\033[1;45m'
+    cyan_e = '\033[1;46m'
+    cinza_c = '\033[1;47m'
+    cinza_e = '\033[1;100m'
+    vermelho_c = '\033[1;101m'
+    verde_c = '\033[1;102m'
+    amarelo_c = '\033[1;103m'
+    azul_c = '\033[1;104m'
+    magenta_c = '\033[1;105m'
+    cyan_c = '\033[1;106m'
+    branco = '\033[1;107m'
+
+
+class RESET_colors():
+    reset = '\033[0;0m'
