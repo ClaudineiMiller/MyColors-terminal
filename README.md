@@ -9,17 +9,15 @@ Projeto em python para imprimir fontes coloridas usando sequências de escape AN
 
 <figure>
   <img src="Captura de tela_importacao.png" alt="Captura de tela da importação">
-  <figcaption>Captura de tela importação</figcaption>
+  <figcaption>Captura de tela importação</figcaption><br><br>
 </figure>
-### Segue abaixo a saída do código acima:
+### Segue abaixo a saída do código acima:<br>
 <figure>
   <img src="Captura de tela_saida_codigo1.png" alt="Captura de tela da exemplo 1">
-  <figcaption>Captura de tela Exemplo 1</figcaption>
 </figure>
 
 ### Exemplo 2 da saída de código (um código qualquer):
 
 <figure>
   <img src="terminal.png" alt="Captura de tela do terminal">
-  <figcaption>Captura de tela do terminal</figcaption>
 </figure>
