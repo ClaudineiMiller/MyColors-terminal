@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module myColorsTerminal</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>myColorsTerminal</strong></big></big> (version 1.0.0)</font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/max/Teste/myColorsTerminal.py">/home/max/Teste/myColorsTerminal.py</a></font></td></tr></table>
+    <p><tt>Bem&nbsp;vindos(as)&nbsp;ao&nbsp;MyColors-terminal.<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Projeto&nbsp;em&nbsp;python&nbsp;para&nbsp;imprimir&nbsp;fontes&nbsp;coloridas&nbsp;usando&nbsp;sequências&nbsp;de&nbsp;escape&nbsp;ANSI&nbsp;no&nbsp;seu&nbsp;terminal.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Para&nbsp;usar&nbsp;esse&nbsp;pequeno&nbsp;módulo,&nbsp;basta&nbsp;colocar&nbsp;o&nbsp;arquivo&nbsp;myColorsTerminal.py&nbsp;na&nbsp;pasta&nbsp;do&nbsp;seu&nbsp;projeto&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;e&nbsp;fazer&nbsp;as&nbsp;devidas&nbsp;importações&nbsp;das&nbsp;classes,&nbsp;algo&nbsp;do&nbsp;tipo&nbsp;assim:<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;from&nbsp;myColorsTerminal&nbsp;import&nbsp;<a href="#FONT_Colors">FONT_Colors</a>,&nbsp;<a href="#BACKGROUND_Colors">BACKGROUND_Colors</a>,&nbsp;<a href="#RESET_colors">RESET_colors</a><br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ft&nbsp;=&nbsp;<a href="#FONT_Colors">FONT_Colors</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bg&nbsp;=&nbsp;<a href="#BACKGROUND_Colors">BACKGROUND_Colors</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;res&nbsp;=&nbsp;<a href="#RESET_colors">RESET_colors</a>.reset&nbsp;<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;seguir&nbsp;um&nbsp;exemplo&nbsp;básico&nbsp;do&nbsp;uso:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;print(f'''<br>
+{ft.amarelo_c}Testando&nbsp;o&nbsp;{ft.vermelho_c}{bg.branco}&nbsp;"myColorsTerminal"&nbsp;{res}<br>
+&nbsp;<br>
+''')</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="myColorsTerminal.html#BACKGROUND_Colors">BACKGROUND_Colors</a>
+</font></dt><dt><font face="helvetica, arial"><a href="myColorsTerminal.html#FONT_Colors">FONT_Colors</a>
+</font></dt><dt><font face="helvetica, arial"><a href="myColorsTerminal.html#RESET_colors">RESET_colors</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="BACKGROUND_Colors">class <strong>BACKGROUND_Colors</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Configuração&nbsp;do&nbsp;background<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>black</strong> = '<font color="#c040c0">\x1b</font>[1;40m'</dl>
+
+<dl><dt><strong>dark_blue</strong> = '<font color="#c040c0">\x1b</font>[1;44m'</dl>
+
+<dl><dt><strong>dark_cyan</strong> = '<font color="#c040c0">\x1b</font>[1;46m'</dl>
+
+<dl><dt><strong>dark_gray</strong> = '<font color="#c040c0">\x1b</font>[1;100m'</dl>
+
+<dl><dt><strong>dark_green</strong> = '<font color="#c040c0">\x1b</font>[1;42m'</dl>
+
+<dl><dt><strong>dark_magenta</strong> = '<font color="#c040c0">\x1b</font>[1;45m'</dl>
+
+<dl><dt><strong>dark_red</strong> = '<font color="#c040c0">\x1b</font>[1;41m'</dl>
+
+<dl><dt><strong>dark_yellow</strong> = '<font color="#c040c0">\x1b</font>[1;43m'</dl>
+
+<dl><dt><strong>light_blue</strong> = '<font color="#c040c0">\x1b</font>[1;104m'</dl>
+
+<dl><dt><strong>light_cyan</strong> = '<font color="#c040c0">\x1b</font>[1;106m'</dl>
+
+<dl><dt><strong>light_gray</strong> = '<font color="#c040c0">\x1b</font>[1;47m'</dl>
+
+<dl><dt><strong>light_green</strong> = '<font color="#c040c0">\x1b</font>[1;102m'</dl>
+
+<dl><dt><strong>light_magenta</strong> = '<font color="#c040c0">\x1b</font>[1;105m'</dl>
+
+<dl><dt><strong>light_red</strong> = '<font color="#c040c0">\x1b</font>[1;101m'</dl>
+
+<dl><dt><strong>light_yellow</strong> = '<font color="#c040c0">\x1b</font>[1;103m'</dl>
+
+<dl><dt><strong>white</strong> = '<font color="#c040c0">\x1b</font>[1;107m'</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="FONT_Colors">class <strong>FONT_Colors</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Configuração&nbsp;das&nbsp;cores<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>black</strong> = '<font color="#c040c0">\x1b</font>[1;30m'</dl>
+
+<dl><dt><strong>bold</strong> = '<font color="#c040c0">\x1b</font>[;1m'</dl>
+
+<dl><dt><strong>dark_blue</strong> = '<font color="#c040c0">\x1b</font>[1;34m'</dl>
+
+<dl><dt><strong>dark_cyan</strong> = '<font color="#c040c0">\x1b</font>[1;36m'</dl>
+
+<dl><dt><strong>dark_gray</strong> = '<font color="#c040c0">\x1b</font>[1;90m'</dl>
+
+<dl><dt><strong>dark_green</strong> = '<font color="#c040c0">\x1b</font>[1;32m'</dl>
+
+<dl><dt><strong>dark_magenta</strong> = '<font color="#c040c0">\x1b</font>[1;35m'</dl>
+
+<dl><dt><strong>dark_red</strong> = '<font color="#c040c0">\x1b</font>[1;31m'</dl>
+
+<dl><dt><strong>dark_yellow</strong> = '<font color="#c040c0">\x1b</font>[1;33m'</dl>
+
+<dl><dt><strong>invert</strong> = '<font color="#c040c0">\x1b</font>[;7m'</dl>
+
+<dl><dt><strong>light_blue</strong> = '<font color="#c040c0">\x1b</font>[1;94m'</dl>
+
+<dl><dt><strong>light_cyan</strong> = '<font color="#c040c0">\x1b</font>[1;96m'</dl>
+
+<dl><dt><strong>light_gray</strong> = '<font color="#c040c0">\x1b</font>[1;37m'</dl>
+
+<dl><dt><strong>light_green</strong> = '<font color="#c040c0">\x1b</font>[1;92m'</dl>
+
+<dl><dt><strong>light_magenta</strong> = '<font color="#c040c0">\x1b</font>[1;95m'</dl>
+
+<dl><dt><strong>light_red</strong> = '<font color="#c040c0">\x1b</font>[1;91m'</dl>
+
+<dl><dt><strong>light_yellow</strong> = '<font color="#c040c0">\x1b</font>[1;93m'</dl>
+
+<dl><dt><strong>white</strong> = '<font color="#c040c0">\x1b</font>[1;97m'</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="RESET_colors">class <strong>RESET_colors</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Configuração&nbsp;do&nbsp;reset<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>reset</strong> = '<font color="#c040c0">\x1b</font>[0;0m'</dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__copyright__</strong> = 'Copyright 2022, by Claudinei'<br>
+<strong>__email__</strong> = 'claudineimiller25@gmail.com'<br>
+<strong>__license__</strong> = 'MIT'<br>
+<strong>__maintainer__</strong> = 'Claudinei Miller'<br>
+<strong>__status__</strong> = 'Prototype'</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Claudinei&nbsp;Miller</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Credits</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">ao&nbsp;mesmo</td></tr></table>
+</body></html>
